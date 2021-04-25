@@ -1,0 +1,43 @@
+html.dark:root {
+  --mainBg: #323a4a;
+  --sliderBg: #001529;
+  --contentBg: #151836;
+  --mainFontColor: lightgrey;
+  --themeColor: #1890ff;
+
+  body {
+    background-color: var(--sliderBg);
+  }
+
+  #frame-content {
+    h1, h2, h3, h4, h5, h6, div, p, li, label, tr, tbody, th, td {
+      color: var(--mainFontColor) !important;
+    }
+
+    .ant-card {
+      background-color: var(--mainBg);
+    }
+
+    label.radio-bt.ant-radio-button-wrapper.ant-radio-button-wrapper-checked {
+      span {
+        color: #fff !important;
+      }
+    }
+
+    label.radio-bt.ant-radio-button-wrapper {
+      span {
+        color: rgba(0, 0, 0, 0.65) !important;
+      }
+
+      :hover {
+        color: var(--themeColor) !important;
+      }
+    }
+  }
+
+
+}
+
+#root {
+  //height: 100%;
+}

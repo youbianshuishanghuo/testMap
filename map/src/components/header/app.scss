@@ -1,0 +1,70 @@
+$bg-color: var(--mainBg);
+$contentBg: var(--contentBg);
+$font-color: var(--mainFontColor);
+$theme-color: #1890ff;
+
+.frame-header.ant-layout-header {
+  background-color: $bg-color;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+
+  .header-logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    .menu-fold {
+      width: 80px;
+      height: 100%;
+      background-color: $contentBg;
+      cursor: pointer;
+      font-size: 20px;
+      color: $font-color;
+    }
+
+    .logo {
+      width: 92px;
+      margin: 0 30px;
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+
+  .header-tab {
+    @extend .header-logo;
+    justify-content: flex-end;
+  }
+
+  .ant-menu-dark {
+    background-color: $bg-color;
+  }
+
+  .ant-avatar {
+    cursor: pointer;
+    margin: 0 40px 0 20px;
+  }
+}
+
+.header-dropdown.ant-dropdown-menu-dark {
+  width: 150px;
+  color: #fff;
+  background: rgba(37, 43, 58, 0.8);
+
+  > div:first-child {
+    padding-top: 20px;
+
+    > p {
+      padding-left: 13px;
+    }
+  }
+
+  .ant-dropdown-menu-item {
+    color: #fff;
+
+    &:hover {
+      color: $theme-color;
+    }
+  }
+}

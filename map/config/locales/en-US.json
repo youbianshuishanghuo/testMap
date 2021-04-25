@@ -1,0 +1,12 @@
+{
+  "SIMPLE": "Simple Sentence",
+  "GET": "get request",
+  "POST": "post request",
+  "demo": "DEMO",
+  "zh": "Chinese",
+  "en": "English",
+  "switch-style": "switching style",
+  "account-management": "account manage",
+  "quit": "logout",
+  "welcome": "welcome back"
+}

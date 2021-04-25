@@ -1,0 +1,11 @@
+import React from "react";
+import { Card } from "antd";
+import "./app.scss";
+
+export const App: React.FC = () => {
+  return (
+    <Card title={<h3 style={{ fontWeight: "bold" }}>demo</h3>} bordered={false}>
+
+    </Card>
+  );
+};

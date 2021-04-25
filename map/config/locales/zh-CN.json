@@ -1,0 +1,17 @@
+{
+  "SIMPLE": "简单的句子",
+  "GET": "get请求",
+  "POST": "post请求",
+  "slider-level1": "侧边栏第一层",
+  "slider-level2": "侧边栏第二层",
+  "slider-demo": "侧边栏第三层",
+  "test": "测试",
+  "demo": "DEMO",
+  "outLink": "外部链接",
+  "zh": "中",
+  "en": "英",
+  "switch-style": "切换样式",
+  "account-management": "账户管理",
+  "quit": "退出",
+  "welcome": "欢迎回来"
+}
